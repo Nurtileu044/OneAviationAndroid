@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">OneAviation</string>
+
+    <string name="trips">Trips</string>
+    <string name="my_trips">My trips</string>
+    <string name="welcome">Welcome back, Alika&#128075;</string>
+    <string name="where_to_next">Where to next?</string>
+    <string name="from_destination">From destination</string>
+    <string name="to_destination">To destination</string>
+    <string name="flight_date">Flight date</string>
+    <string name="return_date">Return date</string>
+    <string name="age">Age</string>
+    <string name="status">Class</string>
+    <string name="baggage">Baggage</string>
+    <string name="search_flights">Search Flights</string>
+    <string name="similar_flights">Similar Flights</string>
+    <string name="details">details</string>
+</resources>
