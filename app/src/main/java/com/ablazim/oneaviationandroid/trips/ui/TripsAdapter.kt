@@ -10,18 +10,18 @@ import com.ablazim.oneaviationandroid.trips.data.Trip
 class TripsAdapter(
     private val onDetailsClicked: () -> Unit
 ) : BaseAdapter<Trip>() {
-    
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BaseViewHolder<Trip> =
         TripsViewHolder(
             ItemSimilarFlightsBinding.inflate(LayoutInflater.from(parent.context), parent, false),
             onDetailsClicked
         )
-    
+
     private class TripsViewHolder(
         private val viewBinding: ItemSimilarFlightsBinding,
         private val onDetailsClicked: () -> Unit
     ) : BaseViewHolder<Trip>(viewBinding.root) {
-        
+
         override fun onBind(item: Trip) {
             super.onBind(item)
             with(viewBinding) {
